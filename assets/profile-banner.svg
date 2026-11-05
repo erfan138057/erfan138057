@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Erfan — AI Developer</title>
+  <desc id="desc">Building useful desktop tools, serverless systems and AI-assisted products.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.55" stop-color="#111d35"/>
+      <stop offset="1" stop-color="#0b3a46"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="18" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <circle cx="1030" cy="-20" r="190" fill="#2dd4bf" opacity=".08"/>
+  <circle cx="1120" cy="290" r="170" fill="#60a5fa" opacity=".08"/>
+  <path d="M0 250 C210 170 340 300 555 215 S910 120 1200 185" fill="none" stroke="#2dd4bf" stroke-width="2" opacity=".35"/>
+  <path d="M0 270 C210 190 350 320 570 235 S930 140 1200 205" fill="none" stroke="#60a5fa" stroke-width="1" opacity=".3"/>
+  <g filter="url(#glow)" opacity=".9"><circle cx="1010" cy="150" r="5" fill="#2dd4bf"/><circle cx="1060" cy="115" r="3" fill="#60a5fa"/><circle cx="1110" cy="175" r="4" fill="#2dd4bf"/></g>
+  <text x="72" y="108" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700">Hi, I'm Erfan.</text>
+  <rect x="74" y="132" width="92" height="5" rx="3" fill="url(#accent)"/>
+  <text x="72" y="184" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="24">AI Developer · Python · Qt · Serverless</text>
+  <text x="72" y="226" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="17">Building useful, privacy-conscious tools for everyday users.</text>
+  <text x="72" y="276" fill="#2dd4bf" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">DESKTOP APPS  /  AUTOMATION  /  OPEN SOURCE</text>
+</svg>
